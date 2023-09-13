@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70cbb421-745c-4011-96d0-2aafd4b2f345" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tvbox.json" beforeDir="false" afterPath="$PROJECT_DIR$/tvbox.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694593276623</updated>
-      <workItem from="1694593278029" duration="1468000" />
+      <workItem from="1694593278029" duration="1810000" />
     </task>
     <servers />
   </component>
