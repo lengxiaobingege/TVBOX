@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70cbb421-745c-4011-96d0-2aafd4b2f345" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TVBOX.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hk/XYQTVBox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hk/XYQTVBox.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/js.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/js.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/lib/live2mv_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/live2mv_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ali.json" beforeDir="false" afterPath="$PROJECT_DIR$/ali.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/99.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/99.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ksck.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ksck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/zx.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/zx.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/云星家庭.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/云星家庭.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/俊佬.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/俊佬.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/分享者.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/分享者.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/南风XC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/南风XC.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/多多.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/多多.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/小马.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/小马.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/巧计.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/巧计.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/弯弯.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/弯弯.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/无名1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无名1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/无忧.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无忧.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/无忧TV.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无忧TV.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/老刘备.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/老刘备.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/肥猫.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/肥猫.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/菜妮丝.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/菜妮丝.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/运输车.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/运输车.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/运输车旧.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/运输车旧.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.json" beforeDir="false" afterPath="$PROJECT_DIR$/new.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/直播.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tv/直播.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tvbox.json" beforeDir="false" afterPath="$PROJECT_DIR$/tvbox.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xBPQ/未知接口.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xBPQ/未知接口.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694593276623</updated>
-      <workItem from="1694593278029" duration="1072000" />
+      <workItem from="1694593278029" duration="1468000" />
     </task>
     <servers />
   </component>
