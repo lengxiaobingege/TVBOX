@@ -5,7 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70cbb421-745c-4011-96d0-2aafd4b2f345" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/tvbox.json" beforeDir="false" afterPath="$PROJECT_DIR$/tvbox.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hk/XYQHiker/无插件直播.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hk/XYQHiker/无插件直播.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hk/XYQTVBox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hk/XYQTVBox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/js.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/js/看BZ影视.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/js/看BZ影视.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/alist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/alist.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/cili.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/cili.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/drpy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/drpy.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/drpy2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/drpy2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/gbk.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/gbk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/lib/lf_p2p1_2_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/lib/lf_p2p1_2_min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaooXP/音范丝.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaooXP/音范丝.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaooXP/音范丝磁力.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaooXP/音范丝磁力.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/99.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/99.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/云星家庭.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/云星家庭.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/云星阿里.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/云星阿里.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/俊佬.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/俊佬.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/儿童.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/儿童.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/分享者.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/分享者.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/无忧.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无忧.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/无忧TV.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无忧TV.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/无忧ali.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/无忧ali.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/月光.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/月光.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/老刘备.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/老刘备.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/菜妮丝.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/菜妮丝.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/饭太硬.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/饭太硬.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_3qu.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_3qu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_cokemv.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_cokemv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_cokemv_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_cokemv_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_cyys.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_cyys.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_czspp.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_czspp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_freezb.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_freezb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_genmov.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_genmov.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_genmov_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_genmov_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_gimytv.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_gimytv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_jrskbs.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_jrskbs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_koudaiys.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_koudaiys.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_lezhutv.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_lezhutv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_libvio.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_libvio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_pansou.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_pansou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_voflix.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_voflix.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_voflix_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_voflix_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_wmkk.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_wmkk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_xmaomi.json" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_xmaomi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/plugin/py_zhaozy.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/plugin/py_zhaozy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/py/py.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv/直播.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tv/直播.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694593276623</updated>
-      <workItem from="1694593278029" duration="1810000" />
+      <workItem from="1694593278029" duration="2478000" />
     </task>
     <servers />
   </component>
