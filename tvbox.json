@@ -1,107 +1,107 @@
 {
     "urls": [
         {
-            "url": "./TVBox/lib/无忧.json",
+            "url": "./lib/无忧.json",
             "name": "📂无忧总线路📂"
         },
         {
-            "url": "./TVBox/lib/无忧TV.json",
+            "url": "./lib/无忧TV.json",
             "name": "📂无忧普通线路📂"
         },
         {
-            "url": "./TVBox/lib/儿童.txt",
+            "url": "./lib/儿童.txt",
             "name": "📂儿童课堂线路📂"
         },
         {
-            "url": "./TVBox/lib/云星家庭.json",
+            "url": "./lib/云星家庭.json",
             "name": "📂云星家庭线路📂"
         },
         {
-            "url": "./TVBox/lib/夜魔.txt",
+            "url": "./lib/夜魔.txt",
             "name": "📂夜魔线路📂"
         },
         {
-            "url": "./TVBox/lib/无名1.txt",
+            "url": "./lib/无名1.txt",
             "name": "📂无名线路📂"
         },
         {
-            "url": "./TVBox/lib/动漫.txt",
+            "url": "./lib/动漫.txt",
             "name": "📂动漫线路📂"
         },
         {
-            "url": "./TVBox/JS/js.json",
+            "url": "./JS/js.json",
             "name": "📂JS专线📂📂"
         },
         {
-            "url": "./TVBox/py/py.txt",
+            "url": "./py/py.txt",
             "name": "📂PY专线📂📂"
         },
         {
-            "url": "./TVBox/Hk/XYQTVBox.txt",
+            "url": "./Hk/XYQTVBox.txt",
             "name": "📂香雅晴线路📂"
         },
         {
-            "url": "./TVBox/lib/弯弯.txt",
+            "url": "./lib/弯弯.txt",
             "name": "📂弯弯线路📂"
         },
         {
-            "url": "./TVBox/lib/cms.txt",
+            "url": "./lib/cms.txt",
             "name": "📂CMS线路📂"
         },
         {
-            "url": "./TVBox/lib/俊佬.txt",
+            "url": "./lib/俊佬.txt",
             "name": "📂俊佬线路📂"
         },
         {
-            "url": "./TVBox/lib/月光.json",
+            "url": "./lib/月光.json",
             "name": "📂月光PLUS线路📂"
         },
         {
-            "url": "./TVBox/lib/巧计.txt",
+            "url": "./lib/巧计.txt",
             "name": "📂巧计线路📂"
         },
         {
-            "url": "./TVBox/lib/唐三.txt",
+            "url": "./lib/唐三.txt",
             "name": "📂唐三线路📂"
         },
         {
-            "url": "./TVBox/lib/菜妮丝.txt",
+            "url": "./lib/菜妮丝.txt",
             "name": "📂菜妮丝线路📂"
         },
         {
-            "url": "./TVBox/lib/老刘备.json",
+            "url": "./lib/老刘备.json",
             "name": "📂老刘备线路📂"
         },
         {
-            "url": "./TVBox/lib/小米.txt",
+            "url": "./lib/小米.txt",
             "name": "📂小米线路📂"
         },
         {
-            "url": "./TVBox/lib/肥猫.txt",
+            "url": "./lib/肥猫.txt",
             "name": "📂肥猫线路📂"
         },
         {
-            "url": "./TVBox/lib/饭太硬.txt",
+            "url": "./lib/饭太硬.txt",
             "name": "📂饭太硬线路📂"
         },
         {
-            "url": "./TVBox/lib/南风XC.txt",
+            "url": "./lib/南风XC.txt",
             "name": "📂南风XC线路📂"
         },
         {
-            "url": "./TVBox/lib/多多.txt",
+            "url": "./lib/多多.txt",
             "name": "📂多多线路📂"
         },
         {
-            "url": "./TVBox/lib/运输车.txt",
+            "url": "./lib/运输车.txt",
             "name": "📂运输车线路📂"
         },
         {
-            "url": "./TVBox/lib/分享者.json",
+            "url": "./lib/分享者.json",
             "name": "📂分享者线路📂"
         },
         {
-            "url": "./TVBox/lib/小马.txt",
+            "url": "./lib/小马.txt",
             "name": "📂小马线路📂"
         },
         {
