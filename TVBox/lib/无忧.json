@@ -12,7 +12,7 @@
 //"wallpaper": "http://maoyingshi.cc/api.php",
 //"wallpaper": "./TVBox/b1.jpg",
 
-"spider":"./TVBox/jar/fm.jar",
+"spider": "./TVBox/jar/fm.jar",
 
 //"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=http://w.g9.pub:66/f/lMYHX/live.txt"]}]}],
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3R2L2xpdmUudHh0"]}]}],
