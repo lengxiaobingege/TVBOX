@@ -11,7 +11,7 @@
 {"key":"drpy_js_Alist","name":"网盘 | Alist","type":3,"api":"./JS/lib/alist.min.js","ext":"./JS/js/alist.json"},
 {"key":"好趣网","name":"电视 | 好趣网","type":3,"api":"./JS/lib/drpy2.min.js","ext":"./JS/js/好趣网.js"},
 {"key":"道长直播2点播","name":"电视 | 直播","type":3,"api":"./JS/lib/live2cms.js","ext":"./JS/lib/live2mv_data.json"},
-{"key":"MV_vod","name":"电视┃MTV","type":1,"api":"https://tvbox-mv--leosam2048.repl.co/mv/vod"},
+{"key":"MV_vod","name":"电视┃MTV","type":1,"api":"https:/-mv--leosam2048.repl.co/mv/vod"},
 {"key":"drpy_js_我的哔哩","name":"我的哔哩","type":3,"api":"./JS/lib/drpy2.min.js","ext":"./JS/js/我的哔哩.js"},
 {"key":"drpy_js_ikanbot2","name":"聚搜 | 爱看机器人","type":3,"api":"./JS/lib/drpy2.min.js","ext":"./JS/js/ikanbot2.js"},
 {"key":"drpy_js_lf_ikanbot","name":"影视 | ikanbot","type":3,"api":"./JS/js/lf_ikanbot3_1_min.js"},
@@ -225,5 +225,5 @@
 {"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-"wallpaper":"http://www.kf666888.cn/api/tvbox/img"
+"wallpaper":"http://www.kf666888.cn/api/img"
 }

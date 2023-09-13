@@ -18,7 +18,7 @@
     "sites": [
     {"key": "Kunyu77","name": "👒酷云七七|Q群：582874559","type": 3,"api": "csp_Kunyu77","playerType":1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fm.jar"},
 {"key": "js豆瓣","name": "🐼豆瓣 | 推荐 |Q群：582874559","type": 3,"api": "./JS/lib/drpy.min.js","ext": "./JS/js/drpy.js","searchable": 0,"quickSearch": 0,"filterable": 0 },
-{"key":"直播转点播1","name":"📡电视┃直播","type": 3,"api":"http://itvbox.cc/tvbox/云星日记/sh/js/直播转点播.js","ext":"http://itvbox.cc/tvbox/云星日记/sh/js/直播.txt"},
+{"key":"直播转点播1","name":"📡电视┃直播","type": 3,"api":"http://itvbox.cc/云星日记/sh/js/直播转点播.js","ext":"http://itvbox.cc/云星日记/sh/js/直播.txt"},
 {"key":" 在线┃直播","name":"📺在线┃直播","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},          
 //{"key": "js七七","name": "🌈┃七七影视〔SP〕","type": 3,"api": "./JS/lib/drpy2.min.js","ext": "./JS/js/酷云77.js","searchable": 1,"quickSearch": 1,"filterable": 1},
 
@@ -37,7 +37,7 @@
       // "4k解析" = 前往 api.maoyingshi.cc 进行自助购买
       //1080免费提供
     },
- {"key":"csp_FanYY","name":"🧸玩偶┃影视","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"},  
+ {"key":"csp_FanYY","name":"🧸玩偶┃影视","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/jar/alitoken.txt"},
        
 //{"key": "ity","name": "💖爱TV4k","type": 3,"api": "csp_xBPQ","playerType":2,"ext": {"数组":"<div class=\"stui-vodlist__box\">&&</div>","副标题":"<span class=\"pic-text text-right\"><b>&&</b></span>","分类":"电影$1#电视剧$2#动漫$4#综艺$3#记录$5#动画片$6","分类url":"https://www.citydy.com/show/id-{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html"},"jar":"./jar/xzy1029.jar"},
 //{"key":"csp_多线","name":"🛂多线蓝光","type":3,"api":"csp_AppYsV2","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://117.175.212.198:8088/api.php/app/"}, 
@@ -54,9 +54,9 @@
 {"key":"在线之家","name":"🎞在线┃之家","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.zxzjhd.com/"},
 {"key":"落落","name":"🍄落落┃影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://luoye.shop:66/api.php/app/"},
 {"key":"飞速","name":"🚄飞速┃影视","type":3,"api":"csp_AppYsV2","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ytcms.lfytyl.com/api.php/app/"},
-//{"key":"csp_蚂蚁影院","name":"🌼蚂蚁┃影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://jk.itvbox.cc:66/tvbox/云星日记/sh/MaooXB/蚂蚁影院.json"},
+//{"key":"csp_蚂蚁影院","name":"🌼蚂蚁┃影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://jk.itvbox.cc:66/云星日记/sh/MaooXB/蚂蚁影院.json"},
 {"key":"小艺","name":"🥩小艺┃影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://lg.tvcms.top/api.php/app/"},
-{"key":"Lezhu","name":"🐷乐猪┃影视","api":"csp_XBPQ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"http://jk.itvbox.cc:66/tvbox/云星日记/sh/MaooXB/乐猪.json"},
+{"key":"Lezhu","name":"🐷乐猪┃影视","api":"csp_XBPQ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"http://jk.itvbox.cc:66/云星日记/sh/MaooXB/乐猪.json"},
 {"key":"csp_Lgyy","name":"🌀蓝光┃影视","type":3,"api":"csp_Lgyy","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.lgyy.vip"},
 {"key":"csp_fant","name":"🍙饭团┃影视","type":3,"api":"csp_Fantuan","filterable":1,"quickSearch":1,"searchable":1,"playerType":1},                            
 //{"key":"酷云","name":"😎酷云┃影视","type":3,"api":"csp_AppYsV2","ext":"https://ys.realdou.cn/api.php/app/","categories":["4K电影","4K电视剧",null]},

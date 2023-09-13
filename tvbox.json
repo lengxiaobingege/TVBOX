@@ -1,111 +1,111 @@
 {
     "urls": [
         {
-            "url": "./lib/无忧.json",
+            "url": "http://127.0.0.1:9978/file/lib/无忧.json",
             "name": "📂无忧总线路📂"
         },
         {
-            "url": "./lib/无忧TV.json",
+            "url": "http://127.0.0.1:9978/file/lib/无忧TV.json",
             "name": "📂无忧普通线路📂"
         },
         {
-            "url": "./lib/儿童.txt",
+            "url": "http://127.0.0.1:9978/file/lib/儿童.txt",
             "name": "📂儿童课堂线路📂"
         },
         {
-            "url": "./lib/云星家庭.json",
+            "url": "http://127.0.0.1:9978/file/lib/云星家庭.json",
             "name": "📂云星家庭线路📂"
         },
         {
-            "url": "./lib/夜魔.txt",
+            "url": "http://127.0.0.1:9978/file/lib/夜魔.txt",
             "name": "📂夜魔线路📂"
         },
         {
-            "url": "./lib/无名1.txt",
+            "url": "http://127.0.0.1:9978/file/lib/无名1.txt",
             "name": "📂无名线路📂"
         },
         {
-            "url": "./lib/动漫.txt",
+            "url": "http://127.0.0.1:9978/file/lib/动漫.txt",
             "name": "📂动漫线路📂"
         },
         {
-            "url": "./JS/js.json",
+            "url": "http://127.0.0.1:9978/file/JS/js.json",
             "name": "📂JS专线📂📂"
         },
         {
-            "url": "./py/py.txt",
+            "url": "http://127.0.0.1:9978/file/py/py.txt",
             "name": "📂PY专线📂📂"
         },
         {
-            "url": "./Hk/XYQTVBox.txt",
+            "url": "http://127.0.0.1:9978/file/Hk/XYQTVBox.txt",
             "name": "📂香雅晴线路📂"
         },
         {
-            "url": "./lib/弯弯.txt",
+            "url": "http://127.0.0.1:9978/file/lib/弯弯.txt",
             "name": "📂弯弯线路📂"
         },
         {
-            "url": "./lib/cms.txt",
+            "url": "http://127.0.0.1:9978/file/lib/cms.txt",
             "name": "📂CMS线路📂"
         },
         {
-            "url": "./lib/俊佬.txt",
+            "url": "http://127.0.0.1:9978/file/lib/俊佬.txt",
             "name": "📂俊佬线路📂"
         },
         {
-            "url": "./lib/月光.json",
+            "url": "http://127.0.0.1:9978/file/lib/月光.json",
             "name": "📂月光PLUS线路📂"
         },
         {
-            "url": "./lib/巧计.txt",
+            "url": "http://127.0.0.1:9978/file/lib/巧计.txt",
             "name": "📂巧计线路📂"
         },
         {
-            "url": "./lib/唐三.txt",
+            "url": "http://127.0.0.1:9978/file/lib/唐三.txt",
             "name": "📂唐三线路📂"
         },
         {
-            "url": "./lib/菜妮丝.txt",
+            "url": "http://127.0.0.1:9978/file/lib/菜妮丝.txt",
             "name": "📂菜妮丝线路📂"
         },
         {
-            "url": "./lib/老刘备.json",
+            "url": "http://127.0.0.1:9978/file/lib/老刘备.json",
             "name": "📂老刘备线路📂"
         },
         {
-            "url": "./lib/小米.txt",
+            "url": "http://127.0.0.1:9978/file/lib/小米.txt",
             "name": "📂小米线路📂"
         },
         {
-            "url": "./lib/肥猫.txt",
+            "url": "http://127.0.0.1:9978/file/lib/肥猫.txt",
             "name": "📂肥猫线路📂"
         },
         {
-            "url": "./lib/饭太硬.txt",
+            "url": "http://127.0.0.1:9978/file/lib/饭太硬.txt",
             "name": "📂饭太硬线路📂"
         },
         {
-            "url": "./lib/南风XC.txt",
+            "url": "http://127.0.0.1:9978/file/lib/南风XC.txt",
             "name": "📂南风XC线路📂"
         },
         {
-            "url": "./lib/多多.txt",
+            "url": "http://127.0.0.1:9978/file/lib/多多.txt",
             "name": "📂多多线路📂"
         },
         {
-            "url": "./lib/运输车.txt",
+            "url": "http://127.0.0.1:9978/file/lib/运输车.txt",
             "name": "📂运输车线路📂"
         },
         {
-            "url": "./lib/分享者.json",
+            "url": "http://127.0.0.1:9978/file/lib/分享者.json",
             "name": "📂分享者线路📂"
         },
         {
-            "url": "./lib/小马.txt",
+            "url": "http://127.0.0.1:9978/file/lib/小马.txt",
             "name": "📂小马线路📂"
         },
         {
-            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+            "url": "https://agit.ai/Yoursmile7/raw/branch/master/XC.json",
             "name": "📝南风线路📝"
         },
         {
@@ -117,7 +117,7 @@
             "name": "📝潇洒线路📝"
         },
         {
-            "url": "http://calendre.top/TVBox/YXHC.json",
+            "url": "http://calendre.top/YXHC.json",
             "name": "☪夕✿晨(自)"
         },
         {
@@ -129,7 +129,7 @@
             "name": "📝多多📝"
         },
         {
-            "url": "http://jk.itvbox.cc:66/tvbox/云星日记/1.m3u8",
+            "url": "http://jk.itvbox.cc:66/云星日记/1.m3u8",
             "name": "📝云星📝"
         },
         {
@@ -161,7 +161,7 @@
             "name": "🚀道长线路"
         },
         {
-            "url": "https://tvbox.cainisi.cf",
+            "url": "https:/.cainisi.cf",
             "name": "🚀菜妮丝线路"
         },
         {
@@ -169,7 +169,7 @@
             "name": "🚀饭太硬线路top"
         },
         {
-            "url": "http://pandown.pro/tvbox/tvbox.json",
+            "url": "http://pandown.pro.json",
             "name": "🚀巧记线路"
         },
         {
@@ -217,7 +217,7 @@
             "name": "💎佰欣园线路"
         },
         {
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu-/main/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
             "name": "💎一木线路"
         },
         {
@@ -229,7 +229,7 @@
             "name": "💎agit/abc线路"
         },
         {
-            "url": "https://agit.ai/mmmgit/tvbox/raw/branch/main/zzz1.json",
+            "url": "https://agit.ai/mmmgit/raw/branch/main/zzz1.json",
             "name": "💎zzz1线路"
         }
     ]

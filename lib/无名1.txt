@@ -1,4 +1,4 @@
-//在线配置地址:  https://jx.mfjx.tk/tvbox.json
+//在线配置地址:  https://jx.mfjx.tk.json
 
 {
 "spider": ".TVBox/jar/fm.jar",

@@ -1,6 +1,6 @@
 {
 "spider":".TVBox/jar/fm.jar",
- // "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;EC14722944CB094619829A8824876D73",
+ // "spider": "https://agit.ai/Yoursmile7/raw/branch/master/Yoursmile.jar;md5;EC14722944CB094619829A8824876D73",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
@@ -16,11 +16,11 @@
       "key": "dr_豆瓣",
       "name": "🔍豆瓣",
       "type": 3,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js",
+      "api": "https://agit.ai/Yoursmile7/raw/branch/master/js/lib/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/drpy.js"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/js/drpy.js"
     },
     {
       "key": "360",
@@ -40,7 +40,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/农民影视.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/农民影视.json"
     },
     {
       "key": "快看",
@@ -299,7 +299,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd+4k|auto|fhd$$$http://tvfan.xxooo.cf/"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd+4k|auto|fhd$$$http://tvfan.xxooo.cf/"
     },
     {
       "key": "YiSo",
@@ -310,7 +310,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "Zhaozy",
@@ -321,7 +321,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd$$$yingshi$$$abcd1234"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd$$$yingshi$$$abcd1234"
     },
     {
       "key": "PanSou",
@@ -332,7 +332,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "UpYun",
@@ -343,7 +343,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "PanSearch",
@@ -354,7 +354,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "Dovx",
@@ -365,7 +365,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "push_agent",
@@ -375,7 +375,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/jar/alitoken.txt+4k|auto|fhd"
     },
     {
       "key": "csp_Cokemv",
@@ -422,7 +422,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/奇优.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/奇优.json"
     },
     {
       "key": "乐猪",
@@ -432,7 +432,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/乐猪.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/乐猪.json"
     },
     {
       "key": "达达龟",
@@ -442,7 +442,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/达达龟.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/达达龟.json"
     },
     {
       "key": "零零七",
@@ -452,7 +452,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/零零七影视.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/零零七影视.json"
     },
     {
       "key": "一龙高清",
@@ -504,37 +504,37 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/有声小说吧.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/有声小说吧.json"
     },
     {
       "key": "dr_88看球",
       "name": "88看球",
       "type": 3,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js",
+      "api": "https://agit.ai/Yoursmile7/raw/branch/master/js/lib/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/88看球.js"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/js/88看球.js"
     },
     {
       "key": "dr_JRKAN直播",
       "name": "JRKAN直播",
       "type": 3,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js",
+      "api": "https://agit.ai/Yoursmile7/raw/branch/master/js/lib/drpy.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/JRKAN直播.js"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/js/JRKAN直播.js"
     },
     {
       "key": "dr_虎牙直播",
       "name": "虎牙直播",
       "type": 3,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js",
+      "api": "https://agit.ai/Yoursmile7/raw/branch/master/js/lib/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/虎牙直播.js"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/js/虎牙直播.js"
     },
     {
       "key": "短视频",
@@ -566,7 +566,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/虎牙.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/虎牙.json"
     },
     {
       "key": "斗鱼",
@@ -576,7 +576,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/斗鱼.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/斗鱼.json"
     },
     {
       "key": "MV_vod",
@@ -616,7 +616,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/Bili.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/Bili.json"
     },
     {
       "key": "相声小品",
@@ -626,7 +626,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/Blixs.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/Blixs.json"
     },
     {
       "key": "戏曲",
@@ -636,7 +636,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/Blixq.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/Blixq.json"
     },
     {
       "key": "少儿",
@@ -646,7 +646,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/少儿教育.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/少儿教育.json"
     },
     {
       "key": "小学",
@@ -656,7 +656,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/小学课堂.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/小学课堂.json"
     },
     {
       "key": "初中",
@@ -666,7 +666,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/初中课堂.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/初中课堂.json"
     },
     {
       "key": "高中",
@@ -676,7 +676,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/高中课堂.json"
+      "ext": "https://agit.ai/Yoursmile7/raw/branch/master/sub/高中课堂.json"
     }
   ],
   "parses": [
@@ -890,7 +890,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "url": "https://agit.ai/Yoursmile7/raw/branch/master/live.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"

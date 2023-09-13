@@ -140,5 +140,5 @@
     "bilibili",
     "renrenmi"
   ],
-  "wallpaper": "http://www.kf666888.cn/api/tvbox/img"
+  "wallpaper": "http://www.kf666888.cn/api/img"
 }

@@ -1,6 +1,6 @@
 {
 	"spider": ".TVBox/jar/xzy1029.jar",
-	"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+	"wallpaper": "http://www.kf666888.cn/api/img",
 	"lives": [{
 		"group": "redirect",
 		"channels": [{

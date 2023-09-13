@@ -6,7 +6,7 @@
 //资源均来源于网络，仅供测试和交流！请勿用于商业用途，并于下载后24小时内删除！否则后果自负，与本人和本公众号无关！公众号只限于对软件做测试、评测、分享！如有侵权，可联系删除！
 
 {
-//"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+//"wallpaper": "http://www.kf666888.cn/api/img",
 "wallpaper":"http://我不是.肥猫.love:63/pic/feimao.php",
 //"wallpaper": "https://pictures.catvod.eu.org",
 //"wallpaper": "http://maoyingshi.cc/api.php",
@@ -16,7 +16,7 @@
 
 //"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=http://w.g9.pub:66/f/lMYHX/live.txt"]}]}],
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3R2L2xpdmUudHh0"]}]}],
-//"lives": [{"name": "live","type": 0,"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
+//"lives": [{"name": "live","type": 0,"url": "https://agit.ai/Yoursmile7/raw/branch/master/live.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 //"lives":[{"name":"爱是用心","type":0,"url":"http://hiker.nokia.press/hikerule/rulelist.json?id=5388"}],
 //"lives": [{"name": "直播","type": 1,"url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}","logo": "http://epg.51zmt.top:8000/{logo}"}],
 //"lives":[{"name":"电视dsy","type":0,"url":"./JS/zb.txt","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -53,7 +53,7 @@
 {"key": "push_agent", "name": "🍭推送(海阔)", "type": 3, "api": "csp_PushAgent", "searchable": 0,"quickSearch": 0, "filterable": 0,"ext": "./jar/alitoken.txt","jar": "./Hk/Hk.jar"},
 {"key":"七夜","name":"🌔七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"ext":"./jar/alitoken.txt"},
 {"key":"PanSearch","name":"🙀盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":0,"ext":"./jar/alitoken.txt"},
-//{"key": "土狗搜索","name": "🐺土狗|搜索","type": 3,"api": "csp_XBPQ","jar": "","ext": {"请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#Referer$https://www.tugousou.com/search","数组": "<div class=\"layui-row layui-col-space10 margin-top&&<hr>","标题": "target=\"_blank\">&&</a","副标题": "<p class=\"layui-font-14 layui-font-gray text-align-right\">&&</p","图片": "http://xiaohewanwan.love/tvbox/aliyun.png","链接": "href=\"&&\"","阿里token": "","搜索url": "https://www.tugousou.com/search;post;keyword={wd}"}},
+//{"key": "土狗搜索","name": "🐺土狗|搜索","type": 3,"api": "csp_XBPQ","jar": "","ext": {"请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#Referer$https://www.tugousou.com/search","数组": "<div class=\"layui-row layui-col-space10 margin-top&&<hr>","标题": "target=\"_blank\">&&</a","副标题": "<p class=\"layui-font-14 layui-font-gray text-align-right\">&&</p","图片": "http://xiaohewanwan.love/aliyun.png","链接": "href=\"&&\"","阿里token": "","搜索url": "https://www.tugousou.com/search;post;keyword={wd}"}},
 {"key": "csp_XYQHikerAL_豆豆飞","name":"📀豆豆飞 | 搜索","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./HK/XYQHiker/豆豆飞.json","jar":"./Hk/Hk.jar"},
 {"key": "csp_bendi", "name": "📂本地视频 ","type": 3,"api": "csp_LocalFile","searchable": 0,"quickSearch": 0,"filterable": 0,"type_flag": 1,"jar":"./jar/xzy1029.jar"},
 //{"key": "csp_Alist1","name": "💾Alist","type": 3, "api": "csp_AList","searchable": 1, "filterable": 1,"ext":"./Bilibili/Alist1.json"},
@@ -179,7 +179,7 @@
 {"key": "csp_XYQBiu_分享短视频","name": "💃🏻分享短视频","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./MaooXB2/短视频.json","jar":"./jar/xzy1029.jar"},
 {"key": "csp_xpath_kuqimv","name": "🎤酷奇MV","type": 3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./MaooXP/kuqimv.json","jar":"./jar/xzy1029.jar"},
 {"key": "抖音小姐姐", "name": "🗽T4|抖音小姐姐", "type": 4,"api": "http://120.53.102.254/xjj", "searchable": 0, "quickSearch": 0, "filterable": 1,"jar":"./jar/xzy1029.jar"},
-{"key": "MV_vod","name": "Ⓜ️MV视频","type": 1,"api": "https://tvbox-mv--leosam2048.repl.co/mv/vod","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "MV_vod","name": "Ⓜ️MV视频","type": 1,"api": "https:/-mv--leosam2048.repl.co/mv/vod","searchable": 1,"quickSearch": 1,"filterable": 1},
 
 
 
