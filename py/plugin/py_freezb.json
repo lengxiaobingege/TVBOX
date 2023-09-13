@@ -44,20 +44,20 @@ class Spider(Spider):
 		videos = []
 		img = 'https://s1.ax1x.com/2022/10/07/x3NPUO.png'
 		for a in aList:
-			urlList = a.xpath("./td[@class='update_data live_link']/a")
-			stat = a.xpath("./td[contains(@style, 'font-weight:bold')]/sapn/@title")[0]
-			time = a.xpath("./td[contains(@style, 'font-weight:bold')]/sapn/text()")[0]
-			if '比分' not in urlList[0].xpath("./text()")[0] and stat == '直播中':
-				remark = a.xpath(".//p[@class='raceclass matchcolor']/@title")[0].replace('直播','') + '|' + time
-				name = a.xpath("string(./td[4])").replace(' ','').replace('\tVS','VS')
+			urlList = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/td[@class='update_data live_link']/a")
+			stat = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/td[contains(@style, 'font-weight:bold')]/sapn/@title")[0]
+			time = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/td[contains(@style, 'font-weight:bold')]/sapn/text()")[0]
+			if '比分' not in urlList[0].xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/text()")[0] and stat == '直播中':
+				remark = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//p[@class='raceclass matchcolor']/@title")[0].replace('直播','') + '|' + time
+				name = a.xpath("string(https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/td[4])").replace(' ','').replace('\tVS','VS')
 				if 'VS' not in name:
 					names = name.split('\t')
 					remark = names[0] + '|' + time
 					name = names[-1].replace('vs','VS')
 				aid = ''
 				for url in urlList:
-					title = url.xpath("./text()")[0]
-					aurl = url.xpath("./@href")[0]
+					title = url.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/text()")[0]
+					aurl = url.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/@href")[0]
 					aurl = self.regStr(reg=r'/tv/(.*?).html', src=aurl)
 					if '比分' not in title:
 						aid = aid + title + '@@@' + aurl + '#'
@@ -127,7 +127,7 @@ class Spider(Spider):
 			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
 		}
 		rsp = self.fetch(url,headers=headers)
-		aurl = self.regStr(reg=r'\"../(.*?)\"', src=rsp.text)
+		aurl = self.regStr(reg=r'\".https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/(.*?)\"', src=rsp.text)
 		if aurl =='':
 			url = self.regStr(reg=r"url: \'(.*?)\'", src=rsp.text)
 		else:

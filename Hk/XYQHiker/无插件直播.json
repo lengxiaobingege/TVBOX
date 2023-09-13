@@ -12,7 +12,7 @@
     "cat_mode": "1",
     "cat_arr_rule": "body&&[data-position=fixed]:has(.live)",
     "cat_title": ".link--span--span--a--a&&Text",
-    "cat_url": ".link&&a&&href[替换:../=>http://www.17klive.com:8866/]",
+    "cat_url": ".link&&a&&href[替换:.https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/=>http://www.17klive.com:8866/]",
     "cat_pic": "http://www.17klive.com:8866/favicon.ico",
     "cat_subtitle": ".live&&Text+' '+.league&&Text",
     "cat_prefix": "",

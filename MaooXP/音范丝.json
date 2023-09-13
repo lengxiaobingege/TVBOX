@@ -19,7 +19,7 @@
         "homeVodIdR": "https://www.yinfans.me/movie/(\\S+)",
         "homeVodImg": "/a/img/@src",
         "homeVodImgR": "\\S+(http\\S+)",
-        "homeVodMark": "../div[contains(@class,'info')]/span[2]/a/text()",
+        "homeVodMark": ".https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div[contains(@class,'info')]/span[2]/a/text()",
 
         "cateUrl": "https://www.yinfans.me/{cateId}/{catePg}",
         "cateVodNode": "//div[contains(@class,'mainleft')]/ul/li/div[contains(@class,'thumbnail')]",
@@ -28,7 +28,7 @@
         "cateVodIdR": "https://www.yinfans.me/movie/(\\S+)",
         "cateVodImg": "/a/img/@src",
         "cateVodImgR": "\\S+(http\\S+)",
-        "cateVodMark": "../div[contains(@class,'info')]/span[2]/a/text()",
+        "cateVodMark": ".https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div[contains(@class,'info')]/span[2]/a/text()",
 
         "dtUrl": "https://www.yinfans.me/movie/{vid}",
         "dtNode": "//div[@class='mainleft']",

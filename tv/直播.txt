@@ -1,6 +1,6 @@
 [
 {"name":"歌曲MV","url":"http://我不是.肥猫.love:63/lives/mv.txt&&&https://api.likepoems.com/img/mc"},
-{"name":"本地直播","url":"./tv/live.txt&&&http://w.g9.pub:66/f/yPrBfL/%E5%A3%81%E7%BA%B81.jpg"},
+{"name":"本地直播","url":"https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/tv/live.txt&&&http://w.g9.pub:66/f/yPrBfL/%E5%A3%81%E7%BA%B81.jpg"},
 {"name":"饭太硬直播","url":"http://ftyyy.tk/live.txt&&&https://api.likepoems.com/img/mc"},
 {"name":"肥猫直播","url":"http://我不是.肥猫.love:63/TV/tvzb.txt&&&https://pic.3gbizhi.com/uploads/20140428/4a96bce58a37d196e242bb5d68f02902.jpg"},
 {"name":"南风直播","url":"https://agit.ai/Yoursmile7/raw/branch/master/live.txt&&&https://api.likepoems.com/img/mc"},

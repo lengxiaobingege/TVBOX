@@ -43,10 +43,10 @@ class Spider(Spider):  # 元类 默认的元类 type
 		aList = root.xpath("//div[@class='module module-wrapper']//div[@class='module-item']")
 		videos = []
 		for a in aList:
-			name = a.xpath(".//div[@class='module-item-pic']/a/@title")[0]
-			pic = a.xpath(".//div[@class='module-item-pic']/img/@data-src")[0]
-			mark = a.xpath("./div[@class='module-item-text']/text()")[0]
-			sid = a.xpath(".//div[@class='module-item-pic']/a/@href")[0]
+			name = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/a/@title")[0]
+			pic = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/img/@data-src")[0]
+			mark = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div[@class='module-item-text']/text()")[0]
+			sid = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/a/@href")[0]
 			sid = self.regStr(sid,"/video/(\\S+).html")
 			videos.append({
 				"vod_id":sid,
@@ -72,10 +72,10 @@ class Spider(Spider):  # 元类 默认的元类 type
 		aList = root.xpath("//div[@class='module-items']/div[@class='module-item']")
 		videos = []
 		for a in aList:
-			name = a.xpath(".//div[@class='module-item-pic']/a/@title")[0]
-			pic = a.xpath(".//div[@class='module-item-pic']/img/@data-src")[0]
-			mark = a.xpath("./div[@class='module-item-text']/text()")[0]
-			sid = a.xpath(".//div[@class='module-item-pic']/a/@href")[0]
+			name = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/a/@title")[0]
+			pic = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/img/@data-src")[0]
+			mark = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div[@class='module-item-text']/text()")[0]
+			sid = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='module-item-pic']/a/@href")[0]
 			sid = self.regStr(sid,"/video/(\\S+).html")			
 			videos.append({
 				"vod_id":sid,
@@ -95,8 +95,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 		url = 'https://www.genmov.com/video/{0}.html'.format(tid)
 		rsp = self.fetch(url,headers=self.header)
 		root = self.html(rsp.text)
-		title = root.xpath(".//h1[@class='page-title']/text()")[0]
-		pic = root.xpath(".//div[@class='video-cover']//img/@data-src")[0]
+		title = root.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//h1[@class='page-title']/text()")[0]
+		pic = root.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='video-cover']//img/@data-src")[0]
 		vod = {
 			"vod_id":tid,
 			"vod_name":title,
@@ -109,7 +109,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 			"vod_director":"",
 			"vod_content":""
 		}
-		infoArray = root.xpath(".//div[@class='video-info-items']")
+		infoArray = root.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='video-info-items']")
 		for info in infoArray:
 			content = info.xpath('string(.)')
 		# 	if content.startswith('类型'):
@@ -129,20 +129,20 @@ class Spider(Spider):  # 元类 默认的元类 type
 
 		vod_play_from = '$$$'
 		playFrom = []
-		vodHeader = root.xpath(".//main[@id='main']//div[@class='module-heading']//div[contains(@class,'module-tab-item')]/span/text()")
+		vodHeader = root.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//main[@id='main']//div[@class='module-heading']//div[contains(@class,'module-tab-item')]/span/text()")
 		for v in vodHeader:
 			playFrom.append(v)
 		vod_play_from = vod_play_from.join(playFrom)
 		
 		vod_play_url = '$$$'
 		playList = []
-		vodList = root.xpath(".//main[@id='main']//div[contains(@class,'module-list')]//div[@class='sort-item']")
+		vodList = root.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//main[@id='main']//div[contains(@class,'module-list')]//div[@class='sort-item']")
 		for vl in vodList:
 			vodItems = []
-			aList = vl.xpath('./a')
+			aList = vl.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/a')
 			for tA in aList:
-				href = tA.xpath('./@href')[0]
-				name = tA.xpath('./span/text()')[0]
+				href = tA.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/@href')[0]
+				name = tA.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/span/text()')[0]
 				tId = self.regStr(href,'/play/(\\S+).html')
 				vodItems.append(name + "$" + tId)
 			joinStr = '#'

@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fm.jar",
+    "spider": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/fm.jar",
     "wallpaper": "http://maoyingshi.cc/api.php",
     "lives": [
         {
@@ -23,8 +23,8 @@
             "searchable": 1,
             "filterable": 1,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt",
-            "jar":"./Hk/Hk.jar"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt",
+            "jar":"https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/Hk/Hk.jar"
         },
         {
             "key": "易搜",
@@ -34,7 +34,7 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt"
         },
         {
             "key": "盤搜",
@@ -44,7 +44,7 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt"
         },
         {
             "key": "UP雲搜",
@@ -54,7 +54,7 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt"
         },
         {
             "key": "找資源",
@@ -64,7 +64,7 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt$$$自己去注册$$$qq112233"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt$$$自己去注册$$$qq112233"
         },
         {
             "key": "push_agent",
@@ -74,8 +74,8 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "./jar/alitoken.txt",
-            "jar":"./jar/fm.jar"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/alitoken.txt",
+            "jar":"https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/jar/fm.jar"
         },
       
         {

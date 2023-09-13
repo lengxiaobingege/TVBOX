@@ -45,12 +45,12 @@ class Spider(Spider):
 		numvL = len(aList)
 		pgc = math.ceil(numvL/15)
 		for a in aList:
-			aid = a.xpath("./@href")[0]
+			aid = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/@href")[0]
 			aid = self.regStr(reg=r'/live/(.*?).html', src=aid)
-			img = a.xpath(".//div[@class='contentLeft']/p/img/@src")[0]
-			home = a.xpath(".//div[@class='contentLeft']/p[@class='false false']/text()")[0]
-			away = a.xpath(".//div[@class='contentRight']/p[@class='false false']/text()")[0]
-			infoArray = a.xpath(".//div[@class='contentCenter']/p")
+			img = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='contentLeft']/p/img/@src")[0]
+			home = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='contentLeft']/p[@class='false false']/text()")[0]
+			away = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='contentRight']/p[@class='false false']/text()")[0]
+			infoArray = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='contentCenter']/p")
 			remark = ''
 			for info in infoArray:
 				content = info.xpath('string(.)').replace(' ','')
@@ -74,12 +74,12 @@ class Spider(Spider):
 		rsp = self.fetch(url)
 		root = self.html(rsp.text)
 		divContent = root.xpath("//div[@class='today']")[0]
-		home = divContent.xpath(".//p[@class='onePlayer homeTeam']/text()")[0]
-		away = divContent.xpath(".//div[3]/text()")[0].strip()
+		home = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//p[@class='onePlayer homeTeam']/text()")[0]
+		away = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[3]/text()")[0].strip()
 		title = home + 'vs' + away
-		pic = divContent.xpath(".//img[@class='gameLogo1 homeTeam_img']/@src")[0]
-		typeName = divContent.xpath(".//div/p[@class='name1 matchTime_wap']/text()")[0]
-		remark = divContent.xpath(".//div/p[@class='time1 matchTitle']/text()")[0].replace(' ','')
+		pic = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//img[@class='gameLogo1 homeTeam_img']/@src")[0]
+		typeName = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div/p[@class='name1 matchTime_wap']/text()")[0]
+		remark = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div/p[@class='time1 matchTitle']/text()")[0].replace(' ','')
 		vod = {
 			"vod_id": aid,
 			"vod_name": title,
@@ -95,8 +95,8 @@ class Spider(Spider):
 		urlList = root.xpath("//div[@class='liveshow']/a")
 		playUrl = ''
 		for url in urlList:
-			name = url.xpath("./text()")[0]
-			purl = url.xpath("./@data-url")[0]
+			name = url.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/text()")[0]
+			purl = url.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/@data-url")[0]
 			playUrl =playUrl + '{0}${1}#'.format(name, purl)
 		vod['vod_play_from'] = '体育直播'
 		vod['vod_play_url'] = playUrl

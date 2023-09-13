@@ -11,7 +11,7 @@ export function gbkTool(){
                 })
                 .replace(/#/g,'####')
                 .replace(/(\w\w):([\w#]+)(?:,|$)/g,function(a,hd,dt){
-                    return dt.replace(/../g,function(a){
+                    return dt.replace(/.https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/g,function(a){
                         if(a!='##'){
                             return hd+a;
                         }else{
@@ -25,7 +25,7 @@ export function gbkTool(){
         G2Uhash={};
     !function(data){
         var k=0;
-        data=data.match(/..../g);
+        data=data.match(/...https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/g);
         for(var i=0x81;i<=0xfe;i++){
             for(var j=0x40;j<=0xFE;j++){
                 U2Ghash[data[k++]]=('%'+i.toString(16)+'%'+j.toString(16))
@@ -41,7 +41,7 @@ export function gbkTool(){
     }
     return{
         encode:function(str){
-            return str.replace(/./g,function(a){
+            return str.replace(/https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/g,function(a){
                 var code=a.charCodeAt(0);
                 if(isAscii(code)){
                     return encodeURIComponent(a);

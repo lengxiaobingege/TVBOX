@@ -60,14 +60,14 @@ class Spider(Spider):
 			aList = root.xpath("//van-row/a")
 			for a in aList:
 				title = ''
-				divList = a.xpath('.//template/div')
+				divList = a.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//template/div')
 				t = divList[0].xpath('string(.)')
 				t = self.cleanText(t).strip()
 				title = title + t
 				remark = divList[1].xpath('string(.)')
 				remark = self.cleanText(remark).replace('\xa0\xa0','').strip().split(' ')[1]
 				if key in title:
-					pic = 'https://www.alipansou.com'+ self.xpText(a,'.//van-card/@thumb')
+					pic = 'https://www.alipansou.com'+ self.xpText(a,'https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//van-card/@thumb')
 					jo = {
 						'vod_id': self.regStr(a.xpath('@href')[0],'/s/(.*)'),
 						'vod_name': '{0}[{1}]'.format(title,remark),

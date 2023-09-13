@@ -58,8 +58,8 @@ class Spider(Spider):
 			root = self.html(self.cleanText(rsp.text))
 			aList = root.xpath("//li[@class='clear']//a")
 			for a in aList:
-				# title = a.xpath('./h3/text()')[0] + a.xpath('./p/text()')[0]
-				title = self.xpText(a,'./h3/text()') + self.xpText(a,'./p/text()')
+				# title = a.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/h3/text()')[0] + a.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/p/text()')[0]
+				title = self.xpText(a,'https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/h3/text()') + self.xpText(a,'https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/p/text()')
 				pic = 'https://img0.baidu.com/it/u=603086994,1727626977&fm=253&fmt=auto?w=500&h=667'
 				jo = {
 					'vod_id': self.xpText(a,'@href'),

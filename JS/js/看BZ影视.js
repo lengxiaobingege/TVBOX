@@ -11,7 +11,7 @@ var rule={
         'User-Agent':'MOBILE_UA',
         // "Cookie": "searchneed=ok"
     },
-    //class_parse:'.conch-nav&&ul&&li;a&&Text;a&&href;./(\\d+).html',
+    //class_parse:'.conch-nav&&ul&&li;a&&Text;a&&href;https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/(\\d+).html',
     //cate_exclude:'',
     class_name:'电影&电视剧&综艺&哔哩哔哩',
     class_url:'MovieK&lianxujuK&VarietyK&bilibiliK',

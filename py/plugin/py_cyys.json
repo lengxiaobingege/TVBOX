@@ -50,10 +50,10 @@ class Spider(Spider):  # 元类 默认的元类 type
         aList = root.xpath("//div[@class='myui-panel myui-panel-bg clearfix']/div/div/ul/li")
         videos = []
         for a in aList:
-            name = a.xpath('./div/a/@title')[0]
-            pic = a.xpath('./div/a/@data-original')[0]
-            mark = a.xpath("./div/a/span/span[@class='tag']/text()")[0]
-            sid = a.xpath("./div/a/@href")[0].replace("/", "").replace("voddetail", "").replace(".html", "")
+            name = a.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div/a/@title')[0]
+            pic = a.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div/a/@data-original')[0]
+            mark = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div/a/span/span[@class='tag']/text()")[0]
+            sid = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/div/a/@href")[0].replace("/", "").replace("voddetail", "").replace(".html", "")
             videos.append({
                 "vod_id": sid,
                 "vod_name": name,
@@ -74,11 +74,11 @@ class Spider(Spider):  # 元类 默认的元类 type
         rsp = self.fetch(url,headers=header)
         root = self.html(self.cleanText(rsp.text))
         divContent = root.xpath("//div[@class='col-lg-wide-75 col-md-wide-7 col-xs-1 padding-0']")[0]
-        title = divContent.xpath(".//div[@class='myui-content__detail']/h1/text()")[0]
-        pic = divContent.xpath(".//div[@class='myui-content__thumb']/a/img/@data-original")[0]
-        det = divContent.xpath(".//div[@class='col-pd text-collapse content']/span[@class='data']")[0]
+        title = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='myui-content__detail']/h1/text()")[0]
+        pic = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='myui-content__thumb']/a/img/@data-original")[0]
+        det = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='col-pd text-collapse content']/span[@class='data']")[0]
         if det.text is None:
-            detail = det.xpath(".//p/text()")[0]
+            detail = det.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//p/text()")[0]
         else:
             detail = det.text
         vod = {
@@ -93,7 +93,7 @@ class Spider(Spider):  # 元类 默认的元类 type
             "vod_director": "",
             "vod_content": detail
         }
-        infoArray = divContent.xpath(".//div[@class='myui-content__detail']/p[contains(@class,'data')]")
+        infoArray = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='myui-content__detail']/p[contains(@class,'data')]")
         for info in infoArray:
             content = info.xpath('string(.)')
             flag = "分类" in content
@@ -115,25 +115,25 @@ class Spider(Spider):  # 元类 默认的元类 type
 
         vod_play_from = '$$$'
         playFrom = []
-        vodHeader = divContent.xpath(".//div[@class='myui-panel_hd']/div/ul/li/a[contains(@href,'playlist')]/text()")
+        vodHeader = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='myui-panel_hd']/div/ul/li/a[contains(@href,'playlist')]/text()")
         for v in vodHeader:
             playFrom.append(v.replace(" ", ""))
         vod_play_from = vod_play_from.join(playFrom)
 
         vod_play_url = '$$$'
         playList = []
-        vodList = divContent.xpath(".//div[contains(@id,'playlist')]")
+        vodList = divContent.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[contains(@id,'playlist')]")
         for vl in vodList:
             vodItems = []
-            aList = vl.xpath('./ul/li/a')
+            aList = vl.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/ul/li/a')
             if len(aList) <= 0:
                 name = '无法找到播放源'
                 tId = '00000'
                 vodItems.append(name + "$" + tId)
             else:
                 for tA in aList:
-                    href = tA.xpath('./@href')[0]
-                    name = tA.xpath("./text()")[0].replace(" ", "")
+                    href = tA.xpath('https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/@href')[0]
+                    name = tA.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master/text()")[0].replace(" ", "")
                     tId = self.regStr(href, '/vodplay/(\\S+).html')
                     vodItems.append(name + "$" + tId)
             joinStr = '#'
@@ -159,10 +159,10 @@ class Spider(Spider):  # 元类 默认的元类 type
         aList = root.xpath("//ul[contains(@class,'myui-vodlist__media clearfix')]/li")
         videos = []
         for a in aList:
-            name = a.xpath(".//div[@class='detail']/h4/a/text()")[0]
-            pic = a.xpath(".//a[contains(@class,'myui-vodlist__thumb')]//@data-original")[0]
-            mark = a.xpath(".//span[@class='tag']/text()")[0]
-            sid = a.xpath(".//div[@class='detail']/h4/a/@href")[0]
+            name = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='detail']/h4/a/text()")[0]
+            pic = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//a[contains(@class,'myui-vodlist__thumb')]//@data-original")[0]
+            mark = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//span[@class='tag']/text()")[0]
+            sid = a.xpath("https://ghproxy.com/https://raw.githubusercontent.com/lengxiaobingege/TVBOX/master//div[@class='detail']/h4/a/@href")[0]
             sid = self.regStr(sid,'/voddetail/(\\S+).html')
             videos.append({
                 "vod_id": sid,
